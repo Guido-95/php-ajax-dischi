@@ -14,14 +14,16 @@
     <title>php dischi</title>
 </head>
 <body>
+    <!-- header -->
     <?php include __DIR__ .'/header.php'; ?>
-
+    <!-- /header -->
 
     <main>
         <!-- ciclo sui dischi -->
         <?php foreach($dischi as $DiscoSingolo){; ?>
+        <!-- /ciclo sui dischi -->   
         
-        
+        <!-- disco -->
         <div class='disco-singolo'>
             <img src="<?php echo $DiscoSingolo['poster']; ?>" alt="immagine disco">
             <div class="titolo">
@@ -36,22 +38,17 @@
             <div class="anno">
                 <?php echo $DiscoSingolo['anno']; ?>
             </div>
-            
-            
         </div>
+        <!-- /disco -->
 
-
-
+        <!-- chiusura ciclo -->
         <?php 
         
         }; ?>
-        
+        <!-- /chiusura ciclo -->
     </main>
-
-
-
-
-
+    <!-- footer -->
     <?php include __DIR__ .'/footer.php'; ?>
+    <!-- /footer -->
 </body>
 </html>

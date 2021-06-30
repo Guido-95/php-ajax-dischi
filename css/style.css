@@ -1,22 +1,22 @@
-*{
+* { 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: teal;
+    background-color: lightgreen;
 }
 
 header,
-footer{
+footer {
     height: 10vh;
-    background-color: aqua;
+    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-main{
+main {
     width: 80%;
     margin: auto;
     height:80vh;
@@ -26,11 +26,11 @@ main{
     align-items: center;
 }
 
-h3{
+h3 {
     font-size: 16px;
 }
 
-.disco-singolo{
+.disco-singolo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,15 +42,15 @@ h3{
     text-align: center;
     border-radius: 5px;
     border: 2px solid black;
-   background-color: lightcyan;
+    background-color: lightcyan;
 }
-.disco-singolo div{
+.disco-singolo div {
     width: 100%;
     padding: 1px;
     margin: 5px;
 }
 
-img{
+img {
     width: 150px;
 }
 
