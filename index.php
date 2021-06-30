@@ -25,13 +25,13 @@
         <div class='disco-singolo'>
             <img src="<?php echo $DiscoSingolo['poster']; ?>" alt="immagine disco">
             <div class="titolo">
-                <?php echo $DiscoSingolo['titolo']; ?>
+                <h3> <?php echo $DiscoSingolo['titolo']; ?> </h3>
             </div>
             <div class="autore">
-                <?php echo $DiscoSingolo['autore']; ?>
+                <h4><?php echo $DiscoSingolo['autore']; ?></h4>
             </div>
             <div class="genere">
-                <?php echo $DiscoSingolo['genere']; ?>
+               <h4><?php echo $DiscoSingolo['genere']; ?></h4> 
             </div>
             <div class="anno">
                 <?php echo $DiscoSingolo['anno']; ?>
