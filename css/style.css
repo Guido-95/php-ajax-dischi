@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header,
+footer{
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 80%;
+    margin: auto;
+    height:80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.disco-singolo{
+    margin: 10px 25px;
+    padding: 50px 50px 15px 50px;
+    width: calc( 100%/5 - 50px);
+    text-align: center;
+    background-color:lightblue;
+}
+.disco-singolo div{
+    margin: 5px;
+}
+
+img{
+    width: 150px;
+}
+
